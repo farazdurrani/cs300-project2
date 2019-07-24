@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 255, 255)
+}	
+
+#stilldiv {
+    margin: 60px;
+    border: 3px solid #eaeaea;
+    width: 245px;
+}
+
+#stilldiv img {
+    margin: 20px;
+}
+
+#aboutmediv {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+}
