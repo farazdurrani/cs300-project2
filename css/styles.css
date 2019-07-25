@@ -1,20 +1,45 @@
 body {
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255);
+    font-family: 'Hind', sans-serif;
 }	
 
 #stilldiv {
-    margin: 60px;
-    border: 3px solid #eaeaea;
-    width: 245px;
+    float: left;
+    border: 1px solid #eaeaea;
+    margin-top: 20px;
+    width: 240px;
+    height: 650px;
+    position: fixed;
+    transform: none;
 }
 
 #stilldiv img {
-    margin: 20px;
+    margin-top: 18px;
+    margin-left: 20px;
 }
 
 #aboutmediv {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 100px;
     width: 200px;
+    height: 240px;
 }
+
+#container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#movingdiv {
+    float: left;
+    margin-left: 240px;
+    margin-right: 60px;
+    margin-top: 20px;
+    border: 1px solid #eaeaea;
+    width: 240px;
+    height: 900px;
+    position: relative;
+    overflow: visible;
+}
+
