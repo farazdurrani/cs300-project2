@@ -97,7 +97,7 @@ body {
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
-    height: 300px;
+    height: 320px;
     position: relative;
     overflow: visible;
 }
@@ -105,11 +105,11 @@ body {
 .movingdiv7 {
     clear: both;
     float: left;
-    margin-left: 240px;
+    margin-left: 440px;
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
-    height: 300px;
+    height: 500px;
     position: relative;
     overflow: visible;
 }
@@ -117,7 +117,7 @@ body {
 .movingdiv8 {
     clear: both;
     float: left;
-    margin-left: 240px;
+    margin-left: 440px;
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
@@ -144,7 +144,7 @@ body {
 .madeby {
     clear: both;
     float: left;
-    margin-left: 240px;
+    margin-left: 440px;
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
@@ -205,6 +205,7 @@ body {
     text-transform: uppercase;
     font-size: 16px;
     color: #2b2b3d;
+    margin-top: 5px;
 }
 
 .contentitemh4 {
@@ -223,4 +224,25 @@ body {
     line-height: 1.8em;
     color: #3d3d50;
     font-weight: 300;
+}
+
+.porfoliowriting1{
+    margin: 0;
+    line-height: 1;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.smallclass2{
+    color: #ffffff;
+    font-size: 85%;
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 80px;
+    left: 55px;
 }
