@@ -105,7 +105,7 @@ body {
 .movingdiv7 {
     clear: both;
     float: left;
-    margin-left: 440px;
+    margin-left: 240px;
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
@@ -117,11 +117,11 @@ body {
 .movingdiv8 {
     clear: both;
     float: left;
-    margin-left: 440px;
+    margin-left: 240px;
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
-    height: 300px;
+    height: 790px;
     position: relative;
     overflow: visible;
 }
@@ -144,7 +144,7 @@ body {
 .madeby {
     clear: both;
     float: left;
-    margin-left: 440px;
+    margin-left: 240px;
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
@@ -245,4 +245,83 @@ body {
     position: absolute;
     bottom: 80px;
     left: 55px;
+}
+
+.contentitemh4 {
+    margin: 0 0 10px;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2b2b3d;
+    margin-top: 5px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #3d3d50;
+}
+
+.form-control {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 50px;
+    color: #969595;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn-primary {
+    background-color: #FFC107;
+}
+.btn {
+    padding: 14px 30px 11px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0;
+    border: 0;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Hind', sans-serif;
+}
+
+.copytext{
+    color: #888888;
+    font-weight: 400;
+    display: block;
+    font-size: 13px;
+    font-family: 'Hind', sans-serif;
 }
