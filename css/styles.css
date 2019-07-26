@@ -125,6 +125,18 @@ body {
     position: relative;
     overflow: visible;
 }
+
+.movingdiv9 {
+    clear: both;
+    float: left;
+    margin-left: 240px;
+    margin-right: 60px;
+    border: 1px solid #eaeaea;
+    width: 700px;
+    height: 790px;
+    position: relative;
+    overflow: visible;
+}
 .clear {
     clear: both;
 }
