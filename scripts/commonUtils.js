@@ -6,7 +6,7 @@ function validateForm() {
         count++;
     }
 
-    if (!validateFirstName()) {
+    if (!validateName()) {
         count++;
     }
 
@@ -30,7 +30,7 @@ function validateMessage() {
     return true;
 }
 
-function validateFirstName() {
+function validateName() {
 
     if ($('#InputName').val().length < 3 || !((/^([^0-9]*)$/).test($('#InputName').val()))) {
         alert('Name cannot be less than 3 letters and it must not contain alphabets');
