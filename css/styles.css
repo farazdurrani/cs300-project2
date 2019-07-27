@@ -133,7 +133,7 @@ body {
     margin-right: 60px;
     border: 1px solid #eaeaea;
     width: 700px;
-    height: 790px;
+    height: 170px;
     position: relative;
     overflow: visible;
 }
@@ -336,4 +336,14 @@ label {
     display: block;
     font-size: 13px;
     font-family: 'Hind', sans-serif;
+}
+
+#downloadresume {
+    margin: 0 0 10px;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2b2b3d;
+    margin-top: 5px;
+    text-decoration: underline;
 }
