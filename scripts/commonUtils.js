@@ -50,6 +50,6 @@ function validateSubject() {
 $(function () {
     $('#downloadresume').click(function (e) {
         e.preventDefault();  //stop the browser from following
-        window.location.href = 'files/Faraz Durrani Resume 4-25-19.pdf';
+        window.location.href = 'files/FarazDurraniResume4-25-19.pdf';
     });
 });
