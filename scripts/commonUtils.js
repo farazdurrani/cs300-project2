@@ -49,7 +49,7 @@ function validateSubject() {
 
 $(function () {
     $('#downloadresume').click(function (e) {
-        e.preventDefault();  //stop the browser from following
+        e.preventDefault();
         window.location.href = 'files/FarazDurraniResume4-25-19.pdf';
     });
 });
