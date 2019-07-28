@@ -138,6 +138,7 @@ body {
     overflow: visible;
 }
 
+/* what is going on? */
 .movingdiv10 {
     clear: both;
     float: left;
@@ -149,6 +150,7 @@ body {
     position: relative;
     overflow: visible;
 }
+
 .clear {
     clear: both;
 }
